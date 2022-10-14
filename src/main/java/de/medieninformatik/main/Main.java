@@ -6,6 +6,7 @@ package de.medieninformatik.main;
  */
 public class Main {
     public static void main(String[] args) {
-        DateiErstellen.createFile("./primzahlen.txt");
+        FindPrimes fp = new FindPrimes(10000, Integer.parseInt(args[0]));
+        DateiErstellen.createFile("./" + args[1]);
     }
 }

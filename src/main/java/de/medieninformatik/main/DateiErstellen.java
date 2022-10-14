@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.IOException;
 
 public class DateiErstellen {
+    static FindPrimes fp;
+    public DateiErstellen(FindPrimes fp){
+        this.fp = fp;
+    }
     /**
      * The method createFile is used to create a File
      */
@@ -16,7 +20,7 @@ public class DateiErstellen {
             if (f.createNewFile()) {
                 System.out.println("File created");
                 // runs the method printInFile from DateiSchreiben.java
-                DateiSchreiben.printInFile();
+                DateiSchreiben.printInFile(fp);
             }
             else
                 System.out.println("File already exists");

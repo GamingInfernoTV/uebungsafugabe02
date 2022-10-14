@@ -52,10 +52,11 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WithArgs">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.medieninformatik.main.Main" />
       <module name="uebungsafugabe02.main" />
+      <option name="PROGRAM_PARAMETERS" value="10 primzahlen.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="de.medieninformatik.main.*" />
@@ -66,6 +67,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WithArgs" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="14" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="de.medieninformatik.main.Main" />
+      <option name="PROGRAM_PARAMETERS" value="10 primzahlen.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WithArgs" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
