@@ -6,6 +6,6 @@ package de.medieninformatik.main;
  */
 public class Main {
     public static void main(String[] args) {
-        DateiErstellen.createFile();
+        DateiErstellen.createFile("./primzahlen.txt");
     }
 }
