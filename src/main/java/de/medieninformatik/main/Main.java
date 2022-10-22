@@ -6,7 +6,8 @@ package de.medieninformatik.main;
  */
 public class Main {
     public static void main(String[] args) {
-        FindPrimes fp = new FindPrimes(10000, Integer.parseInt(args[0]));
-        DateiErstellen.createFile("./" + args[1]);
+        FindPrimes fp = new FindPrimes(100000000, Integer.parseInt(args[0]));
+        DateiErstellen de = new DateiErstellen(fp);
+        de.createFile("./" + args[1]);
     }
 }

@@ -7,12 +7,12 @@ import java.io.PrintWriter;
 import java.util.List;
 
 public class DateiSchreiben {
-    static FindPrimes fp;
+    FindPrimes fp;
     public DateiSchreiben(FindPrimes fp) {
         this.fp = fp;
     }
 
-    public static void printInFile() {
+    public void printInFile() {
         PrintWriter pWriter = null;
         StringBuilder sb = new StringBuilder();
         String s = "./primzahlen.txt";
