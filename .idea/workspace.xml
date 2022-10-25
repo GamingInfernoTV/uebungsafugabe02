@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9259308e-f827-45f4-a758-5d0f86d5381f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_14_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_14_25__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_14_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_14_26__Changes_.xml" afterDir="false" />
+    <list default="true" id="9259308e-f827-45f4-a758-5d0f86d5381f" name="Changes" comment="Working Version 3.0">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_14_25_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_10_2022_14_25__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/primzahlen.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/medieninformatik/main/DateiErstellen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/medieninformatik/main/DateiErstellen.java" afterDir="false" />
@@ -33,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="1.0.1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,17 +78,92 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="de.medieninformatik.main.Main" />
       <module name="uebungsafugabe02.main" />
-      <option name="PROGRAM_PARAMETERS" value="500 primzahlen.txt" />
+      <option name="PROGRAM_PARAMETERS" value="500 Primzahlen.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DateiErstellenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;de.medieninformatik.test.DateiErstellenTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DateiSchreibenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;de.medieninformatik.test.DateiSchreibenTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FindPrimesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;de.medieninformatik.test.FindPrimesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.WithArgs" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.DateiErstellenTest" />
+      <item itemvalue="Gradle.DateiSchreibenTest" />
+      <item itemvalue="Gradle.FindPrimesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DateiErstellenTest" />
+        <item itemvalue="Gradle.DateiSchreibenTest" />
+        <item itemvalue="Gradle.FindPrimesTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -103,6 +178,14 @@
       <updated>1665747248576</updated>
       <workItem from="1665747253853" duration="2082000" />
     </task>
+    <task id="LOCAL-00001" summary="Working Version 3.0">
+      <created>1666474741264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666474741265</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +202,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/1.0.1" />
+                        <option value="3.0" />
                       </list>
                     </value>
                   </entry>
@@ -130,5 +213,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working Version 3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Version 3.0" />
   </component>
 </project>

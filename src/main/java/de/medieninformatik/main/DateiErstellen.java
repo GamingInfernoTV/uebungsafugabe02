@@ -8,7 +8,7 @@ public class DateiErstellen {
     DateiSchreiben ds;
     public DateiErstellen(FindPrimes fp){
         this.fp = fp;
-        ds = new DateiSchreiben(fp);
+        ds = new DateiSchreiben();
     }
     /**
      * The method createFile is used to create a File
@@ -22,7 +22,7 @@ public class DateiErstellen {
             if (f.createNewFile()) {
                 System.out.println("File created");
                 // runs the method printInFile from DateiSchreiben.java
-                ds.printInFile();
+                ds.printInFile(s,fp.getPrimes());
             }
             else
                 System.out.println("File already exists");

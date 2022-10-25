@@ -8,6 +8,10 @@ public class Main {
     public static void main(String[] args) {
         FindPrimes fp = new FindPrimes(100000000, Integer.parseInt(args[0]));
         DateiErstellen de = new DateiErstellen(fp);
-        de.createFile("./" + args[1]);
+        if (args.length >= 2) {
+            de.createFile("./" + args[1]);
+        } else {
+            de.createFile("./default.txt");
+        }
     }
 }

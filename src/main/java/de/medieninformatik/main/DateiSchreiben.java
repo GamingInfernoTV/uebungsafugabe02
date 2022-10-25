@@ -7,18 +7,14 @@ import java.io.PrintWriter;
 import java.util.List;
 
 public class DateiSchreiben {
-    FindPrimes fp;
-    public DateiSchreiben(FindPrimes fp) {
-        this.fp = fp;
-    }
 
-    public void printInFile() {
+
+    public void printInFile(String path, List<Integer> content) {
         PrintWriter pWriter = null;
         StringBuilder sb = new StringBuilder();
-        String s = "./primzahlen.txt";
-        List<Integer> li = fp.getPrimes();
-        for (int i = 0; i < li.size(); i++) {
-            sb.append(li.get(i) + " ");
+        String s = path;
+        for (int i = 0; i < content.size(); i++) {
+            sb.append(content.get(i) + " ");
         }
         try {
             pWriter = new PrintWriter(new FileWriter(s));
